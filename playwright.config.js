@@ -1,9 +1,8 @@
-const { defineConfig } = require('@playwright/test');
+import { defineConfig } from '@playwright/test';
 
-module.exports = defineConfig({
+export default defineConfig({
   use: {
-    baseURL: 'http://saucedemo.com',
-    headless: true,
-    viewport: { width: 1280, height: 720 },
-  },
+    headless: false,
+    viewport: { width: 1280, height: 720 }
+  }
 });

@@ -1,15 +1,25 @@
 {
-  "name": "saucedemo145",
+  "name": "projeto02",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "description": "Projeto de automação web com Playwright e Cucumber (BDD)",
+  "type": "module",
+  "scripts": {
+    "rodar-cucumber": "cucumber-js",
+    "rodar-pw": "playwright test"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "bdd",
+    "qa",
+    "automacao"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.56.1",
-    "@types/node": "^24.10.1"
+    "@playwright/test": "^1.56.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.6.0"
   }
 }
