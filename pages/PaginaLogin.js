@@ -1,27 +1,3 @@
-/*export class PaginaLogin {
-  constructor(page) {
-    this.page = page;
-
-    this.campoEmail = page.locator(
-      'input[type="email"], input[name="email"], input#email'
-    );
-
-    this.campoSenha = page.locator(
-      'input[type="password"], input[name="password"], input#password'
-    );
-
-    this.botaoLogin = page.locator(
-      'button:has-text("Login"), button:has-text("Entrar")'
-    );
-  }
-
-  async realizarLogin(email, senha) {
-    await this.campoEmail.fill(email);
-    await this.campoSenha.fill(senha);
-    await this.botaoLogin.click();
-  }
-}*/
-
 export class PaginaLogin {
   constructor(page) {
     this.page = page;
